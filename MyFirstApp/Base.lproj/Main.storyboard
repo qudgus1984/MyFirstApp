@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="반갑습니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bu-G6-d3M">
-                                <rect key="frame" x="107" y="284" width="200" height="35"/>
+                                <rect key="frame" x="107" y="264" width="200" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="gOP-Ea-lAJ"/>
                                     <constraint firstAttribute="height" constant="35" id="uAN-Ya-KsQ"/>
@@ -28,10 +28,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYg-b3-hey">
-                                <rect key="frame" x="147" y="727" width="120" height="35"/>
+                                <rect key="frame" x="137" y="727" width="140" height="35"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="CKG-ci-cYX"/>
+                                    <constraint firstAttribute="width" constant="140" id="CKG-ci-cYX"/>
                                     <constraint firstAttribute="height" constant="35" id="Rp6-H1-zCb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -48,7 +48,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1bu-G6-d3M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="240" id="QCc-wF-SSd"/>
+                            <constraint firstItem="1bu-G6-d3M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="QCc-wF-SSd"/>
                             <constraint firstItem="1bu-G6-d3M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qfg-bP-dLz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jYg-b3-hey" secondAttribute="bottom" constant="100" id="pVa-kh-NoF"/>
                             <constraint firstItem="jYg-b3-hey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q2U-Tk-EZr"/>
